@@ -3,7 +3,7 @@ layout: default
 font: macro
 ---
 
-<article class="recipe{% if page.ingredients %} recipe-hasSidebar{% endif %}{% if page.image %} recipe-hasBackground{% endif %}">
+<article class="file{% if page.ingredients %} file-hasSidebar{% endif %}{% if page.image %} file-hasBackground{% endif %}">
   <div class="content-top">
     {% include core/metabar.html %}
 
@@ -23,7 +23,7 @@ font: macro
   {% endif %}
 
   <div class="content-bottom">
-    <div class="content content-recipe content-style">
+    <div class="content content-file content-style">
 
       {{ content }}
 

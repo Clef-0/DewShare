@@ -21,7 +21,7 @@ document.addEventListener('turbolinks:load', function () {
   };
 
   // Define the list object.
-  recipeList = new List('js-list', searchOptions);
+  fileList = new List('js-list', searchOptions);
 
   var checkCategory = document.getElementsByClassName('js-category');
   var checkDuration = document.getElementsByClassName('js-duration');
@@ -74,7 +74,7 @@ document.addEventListener('turbolinks:load', function () {
     if (checkedLength > 0) {
 
       // Check if the item matches the filters.
-      recipeList.filter(function (item) {
+      fileList.filter(function (item) {
 
         // Check if in category.
         var category = checkedCategory.length === 0 || checkedCategory.indexOf(item.values().category) > -1;
@@ -98,7 +98,7 @@ document.addEventListener('turbolinks:load', function () {
     } else {
 
       // No filters, so clear all filters.
-      recipeList.filter();
+      fileList.filter();
     }
   }
 

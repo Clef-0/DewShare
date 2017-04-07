@@ -9,7 +9,7 @@
 
 // 1. Metabar //
 
-.recipe-hasBackground {
+.file-hasBackground {
   @include mappy-query(phone) {
     .metabar-logo svg {
       fill: white;
@@ -62,7 +62,7 @@
   background-position: center;
   background-size: cover;
 
-  .recipe & {
+  .file & {
     @include mappy-query(tablet) {
       display: none;
     }
@@ -95,7 +95,7 @@
   }
 }
 
-.recipe-hasBackground {
+.file-hasBackground {
   @include mappy-query(phone) {
     .hero {
       z-index: 999;
@@ -116,7 +116,7 @@
 
 // 3. Content //
 
-.recipe {
+.file {
   .metabar-wrapper,
   .content,
   .footer-container {
@@ -126,7 +126,7 @@
   }
 }
 
-.content-style.content-recipe {
+.content-style.content-file {
   color: palette(gray, dark);
 
   > h1,

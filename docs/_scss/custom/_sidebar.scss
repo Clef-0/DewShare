@@ -10,7 +10,7 @@
 
 $sidebar-width: 16rem;
 
-.recipe-hasSidebar > div {
+.file-hasSidebar > div {
   @include mappy-query(tablet) {
     padding-right: $sidebar-width;
   }
@@ -34,7 +34,7 @@ $sidebar-width: 16rem;
 .sidebar-overlay {
   display: none;
 
-  .recipe & {
+  .file & {
     @include mappy-query(tablet) {
       display: block;
       position: absolute;

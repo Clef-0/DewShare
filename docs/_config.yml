@@ -61,11 +61,10 @@ typekit:              fcv7rfe
 excerpt_separator: <!-- Read more -->
 
 navigation:
-  GitHub: https://github.com/madebyconnor/physalis
-  Download: https://github.com/madebyconnor/physalis/archive/gh-pages.zip
+  ElDewrito.com: http://www.eldewrito.com/
 
 collections:
-  recipes:
+  files:
     output: true
 
 defaults:
@@ -78,8 +77,8 @@ defaults:
       permalink: /news/:title/
   - scope:
       path: ''
-      type: recipes
+      type: files
     values:
-      layout: recipe
+      layout: file
       lang: en
       permalink: /:title/
