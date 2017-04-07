@@ -21,11 +21,11 @@ compress_html:
 
 
 # Site meta
-title:                Physalis
-tagline:              'Form follows function'
-description:          'A simple Jekyll theme with a photo sidebar.'
-keywords:             'connor, bär, designer, traveller, code, jekyll, developer, theme'
-url:                  http://physalis.madebyconnor.co
+title:                DewShare
+tagline:              'Map and gametype directory'
+description:          'Map and gametype directory.'
+keywords:             'eldewrito, halo, online, halo online, halo online eldewrito, halo online eldorito, eldorito'
+url:                  http://share.eldewrito.com/
 baseurl:              ''
 assets:               /assets
 images:               /images/
@@ -33,12 +33,12 @@ image:                index-large.jpg
 logo:                 /assets/icons/apple-icon-144x144.png
 
 author:
-  name:               Connor Bär
+  name:               Clef
   bio:                Hi, I'm Connor, the author of this blog. Nice to meet you!
   image:              author
-  url:                http://connorbaer.io
-  email:              hello@connorbaer.io
-  twitter:            connor_baer
+  url:                http://niall.pw
+  email:              clef@eldewrito.com
+  twitter:            elitebot
 
 social:
   twitter:            https://twitter.com/connor_baer
