@@ -1,84 +1,27 @@
-# Dependencies
-markdown:             kramdown
-highlighter:          rouge
-
-
-# Gems
-gems:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-
-
-# Settings
-color:                '#fd7e14'
-exclude:              [CNAME, README.md, NOTES.md, LICENSE.md, .gitignore, package.json, bower.json, _js, _scss, _images, gulpfile.js, gulpconfig.js, node_modules, bower_components, gemfile, Gemfile.lock]
-permalink:            /:title/
-compress_html:
-  clippings: all
-  comments: all
-
-
-# Site meta
-title:                DewShare
-tagline:              'Map and gametype directory'
-description:          'Map and gametype directory.'
-keywords:             'eldewrito, halo, online, halo online, halo online eldewrito, halo online eldorito, eldorito'
-url:                  http://share.eldewrito.com/
-baseurl:              ''
-assets:               /assets
-images:               /images/
-image:                index-large.jpg
-logo:                 /assets/icons/apple-icon-144x144.png
-
-author:
-  name:               Clef
-  bio:                Hi, I'm Clef!
-  image:              author
-  url:                http://niall.pw
-  email:              clef@eldewrito.com
-  twitter:            elitebot
-
-social:
-  twitter:            https://twitter.com/elitebot
-  github:             https://github.com/Clef-0
-
-version:              1.0.0
-
-
-# Integrations
-typekit:              fcv7rfe
-
-# google_fonts:
-#   name:             weights
-
-# google_analytics_key: UA-37412525-4
-# google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
-
-
-# Content
-excerpt_separator: <!-- Read more -->
-
-navigation:
-  ElDewrito.com: http://www.eldewrito.com/
-
+---
+title: Your awesome title
+timezone: UTC
 collections:
-  files:
+  posts:
+    title: Posts
     output: true
+  uploads:
+    title: Uploads
+    output: true
+email: clef@eldewrito.com
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
-defaults:
-  - scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
-      lang: en
-      permalink: /news/:title/
-  - scope:
-      path: ''
-      type: files
-    values:
-      layout: file
-      lang: en
-      permalink: /:title/
+'
+baseurl: ''
+url: ''
+twitter_username: elitebot
+github_username: Clef-0
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
