@@ -46,9 +46,6 @@ social:
 
 version:              1.0.0
 
-github:
-  repo:               https://github.com/madebyconnor/physalis
-
 
 # Integrations
 typekit:              fcv7rfe
