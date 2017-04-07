@@ -8,7 +8,7 @@
 
 // 1. Variables //
 
-$sans: "freight-sans-pro", "FreightSans Pro", "PT Sans", Arial, sans-serif;
+$sans: Nunito, sans-serif;
 $sans-normal: 500;
 $sans-semibold: 600;
 $sans-bold: 700;
@@ -236,12 +236,12 @@ body {
   overflow-x: hidden;
 
   &.serif {
-    font-family: $serif;
+    font-family: $sans;
     font-weight: $serif-normal;
   }
 
   &.macro {
-    font-family: $macro;
+    font-family: $sans;
     font-weight: $macro-normal;
   }
 }
