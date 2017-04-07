@@ -16,7 +16,7 @@ gulp.task('scripts-lint', function() {
 
 
 // Generate script bundles as defined in the configuration file
-// Adapted from https://github.com/gulpjs/gulp/blob/master/docs/recipes/running-task-steps-per-folder.md
+// Adapted from https://github.com/gulpjs/gulp/blob/master/docs/files/running-task-steps-per-folder.md
 gulp.task('scripts-bundle', ['scripts-lint'], function(){
   var bundles = [];
 

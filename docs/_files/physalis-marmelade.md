@@ -28,4 +28,4 @@ ingredients:
 
 ---
 
-*From [Dansukker](http://www.dansukker.co.uk/uk/recipes/physalis-marmalade.aspx).*
+*From [Dansukker](http://www.dansukker.co.uk/uk/files/physalis-marmalade.aspx).*
