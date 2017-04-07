@@ -1,7 +1,90 @@
-name: Photo gallery
-pygments: true
-permalink: /:year/:month/:title/
-url: https://iamnii.github.io/GridGallery/
+# Dependencies
+markdown:             kramdown
+highlighter:          rouge
+
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+
+# Settings
+color:                '#fd7e14'
+exclude:              [CNAME, README.md, NOTES.md, LICENSE.md, .gitignore, package.json, bower.json, _js, _scss, _images, gulpfile.js, gulpconfig.js, node_modules, bower_components, gemfile, Gemfile.lock]
+permalink:            /:title/
+compress_html:
+  clippings: all
+  comments: all
+
+
+# Site meta
+title:                Physalis
+tagline:              'Form follows function'
+description:          'A simple Jekyll theme with a photo sidebar.'
+keywords:             'connor, bär, designer, traveller, code, jekyll, developer, theme'
+url:                  http://physalis.madebyconnor.co
+baseurl:              ''
+assets:               /assets
+images:               /images/
+image:                index-large.jpg
+logo:                 /assets/icons/apple-icon-144x144.png
+
 author:
-    name: Adjetey Sowah
-    twitter: #
+  name:               Connor Bär
+  bio:                Hi, I'm Connor, the author of this blog. Nice to meet you!
+  image:              author
+  url:                http://connorbaer.io
+  email:              hello@connorbaer.io
+  twitter:            connor_baer
+
+social:
+  twitter:            https://twitter.com/connor_baer
+  instagram:          https://instagram.com/connor_baer
+  github:             https://github.com/madebyconnor/physalis
+  medium:             https://blog.connorbaer.io
+
+version:              1.0.0
+
+github:
+  repo:               https://github.com/madebyconnor/physalis
+
+
+# Integrations
+typekit:              fcv7rfe
+
+# google_fonts:
+#   name:             weights
+
+# google_analytics_key: UA-37412525-4
+# google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
+
+
+# Content
+excerpt_separator: <!-- Read more -->
+
+navigation:
+  GitHub: https://github.com/madebyconnor/physalis
+  Download: https://github.com/madebyconnor/physalis/archive/gh-pages.zip
+
+collections:
+  recipes:
+    output: true
+
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      lang: en
+      permalink: /news/:title/
+  - scope:
+      path: ''
+      type: recipes
+    values:
+      layout: recipe
+      lang: en
+      permalink: /:title/
