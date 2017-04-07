@@ -47,5 +47,5 @@ sass:
   style: compressed
 
 # Ruby Gems
-gems: [jekyll-paginate, jekyll-seo-tag]
+gems: [jekyll-paginate, jekyll-seo-tag, jekyll-admin]
 
