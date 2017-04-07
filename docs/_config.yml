@@ -1,5 +1,4 @@
 name: Photo gallery
-markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title/
 url: https://iamnii.github.io/GridGallery/
